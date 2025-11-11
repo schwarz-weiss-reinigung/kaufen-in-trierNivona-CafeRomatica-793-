@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Sitemap Location
+Sitemap: https://kaufen-in-trier-jura-w4-dark-1a289304d2b9.herokuapp.com/sitemap.xml
+
+# Google Bot
+User-agent: Googlebot
+Allow: /
+
+# Bing Bot
+User-agent: Bingbot
+Allow: /
+
+# Yandex Bot
+User-agent: Yandex
+Allow: /
