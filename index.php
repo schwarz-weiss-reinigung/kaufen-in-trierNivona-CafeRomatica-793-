@@ -2,7 +2,7 @@
 // SEO Meta Configuration
 $meta_title = "Nivona CafeRomatica 793: Premium-Kaffeevollautomat Test";
 $meta_description = "Entdecken Sie den Nivona CafeRomatica 793 mit 5 Jahren Garantie. Perfekter Kaffeegenuss für Zuhause - jetzt bei Kaufen-in-Trier kaufen!";
-$canonical_url = "https://kaufen-in-trier.de/products/nivona-caferomatica-793-nicr793-inkl-5-jahre-garantie";
+$canonical_url = "https://kaufen-in-trier-jura-w4-dark-1a289304d2b9.herokuapp.com/";
 $published_date = date('Y-m-d');
 $modified_date = date('Y-m-d');
 
@@ -18,7 +18,11 @@ $savings = "33,00 €";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="3mzUiSIoLmrq_m8ZCPRRbJlnHo78RZncHEqYA3HMC7g" />
+    <!-- Robots & Indexing Tags -->
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow">
     <meta name="author" content="Kaffeevollautomat Experten">
     <meta name="description" content="<?php echo $meta_description; ?>">
     <title><?php echo $meta_title; ?></title>
